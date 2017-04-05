@@ -13,6 +13,7 @@ public class FizzBuzz {
     
     public String getFizzBuzz(int n)
     {
+        //esto pertenece al pasado :)
         String resultado= String.valueOf(n);         
         if (n%3==0) 
         {
