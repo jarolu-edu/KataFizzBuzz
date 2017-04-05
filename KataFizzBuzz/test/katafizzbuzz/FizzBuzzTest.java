@@ -40,4 +40,12 @@ public class FizzBuzzTest {
         
     }
     
+    @Test
+    public void testFizzBuzzDeTresMultiploDevuelveFizz() {
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(6);
+        assertEquals("Fizz", result);
+        
+    }
+    
 }
