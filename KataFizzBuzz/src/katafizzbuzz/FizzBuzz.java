@@ -11,9 +11,15 @@ package katafizzbuzz;
  */
 public class FizzBuzz {
     
-    public int getFizzBuzz(int n)
+    public String getFizzBuzz(int n)
     {
-        return n;        
+        String resultado= String.valueOf(n);         
+        if (n==3) 
+        {
+            resultado = "Fizz";
+        }                
+        return resultado;
+       
     }
     
 }
