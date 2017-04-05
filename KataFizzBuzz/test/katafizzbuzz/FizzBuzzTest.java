@@ -56,5 +56,13 @@ public class FizzBuzzTest {
         
     }
     
+    @Test
+    public void testFizzBuzzCincoMultiploDevuelveBuzz() {
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(25);
+        assertEquals("Buzz", result);
+        
+    }
+    
     
 }

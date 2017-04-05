@@ -18,7 +18,7 @@ public class FizzBuzz {
         {
             resultado = "Fizz";
         }       
-        if (n==5) 
+        if (n%5==0) 
         {
             resultado = "Buzz";
         }
